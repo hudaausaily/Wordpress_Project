@@ -3,7 +3,7 @@ Contributors: brainstormforce
 Tags: stripe, credit card, apple pay, google pay, express checkout
 Requires at least: 5.4
 Tested up to: 6.1
-Stable tag: 1.4.8
+Stable tag: 1.4.9
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -113,6 +113,10 @@ We understand the need for a quality product backed by dedicated support that ca
 4. Express Checkout Button on Checkout Page
 
 == Changelog ==
+= 1.4.9 - MONDAY, 5TH DECEMBER 2022 =
+* Fix: Express checkout compatibility with CartFlows.
+* Fix: Add payment method was not working.
+
 = 1.4.8 - TUESDAY, 15TH NOVEMBER 2022 =
 * Fix: WooCommerce HPOS issues.
 

@@ -619,7 +619,7 @@
 
 	function confirmPaymentIntent( event, hash ) {
 		const partials = hash.match(
-			/^#?confirm-(pi|si)-([^:]+):(.+)$/,
+			/^#?confirm-(pi|si)-([^:]+):(.+):(.+)$/,
 		);
 
 		if ( ! partials || 4 > partials.length ) {
